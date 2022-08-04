@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:blueviolet;
+    margin: 50px auto;
+    text-align: center;
+    background-color: aqua;
+    height: 100px;
+    padding: 30px;
+}
+.form1{
+    width: 500px;
+    height: 400px;
+    margin:100px auto;
+    border: 1px solid blueviolet;
+    box-shadow: 0 1px 17px 0 rgb(224 224 224);
+    border-radius: 10px;
+    padding: 25px;
+}
+.span2{
+    color:blueviolet;
+    font-size: large;
+    left: 20px;
+    top: 20px;
+}
+.inp2{
+    color: blueviolet;
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    background-color:aquamarine;
+    padding-left: 20px;
+    outline: none;
+}
+.btn1{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: large;
+    margin-left: 150px;
+}
+.nameSpan, .emailSpan,.passwordSpan,.comfrimPasswordSpan{
+    font-size: small;
+    color: red;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <h1>Sign-Up</h1>
+    <form onsubmit="handleSubmit(event)" class="form1">
+        <span class="span2">FullName*</span><br>
+        <input type="text" autocomplete="false" placeholder="Enter your Full name " class="inp2" id="name"><br>
+        <span class="nameSpan"></span><br>
+        <span class="span2">Email*</span>
+        <input type="email" autocomplete="false" class="inp2" placeholder="Enter your Email" id="email"><br>
+        <span class="emailSpan"></span><br>
+        <span class="span2">Password*</span>
+        <input type="password" autocomplete="false" class="inp2" placeholder="Password" id="password1"><br>
+        <span class="passwordSpan"></span><br>
+        <span class="span2">Comfirm Password*</span>
+        <input type="password" autocomplete="false" class="inp2" placeholder="Comfirm Password" id="password2"><br>
+        <span class="comfrimPasswordSpan"></span><br>
+        <button type="submit" class="btn1">Sign-Up</button><br>
+        <span class="resultSpan"></span>
+    </form>
+    <script src="sign-up.js"></script>
+</body>
+</html>
